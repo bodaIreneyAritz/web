@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="Irene & Aritz — 6 de marzo de 2027, Zarautz"
+    />
+    <meta name="theme-color" content="#f7f4ee" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <title>Irene & Aritz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css?v=34" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Skip</a>
+
+    <header class="site-header">
+      <a class="brand" href="#inicio">Irene &amp; Aritz</a>
+
+      <nav id="nav" class="nav-links" aria-label="Primary">
+        <a href="#historia" data-i18n="navStory">Historia</a>
+        <a href="#itinerario" data-i18n="navSchedule">Itinerario</a>
+        <a href="#alojamiento" data-i18n="navStay">Alojamiento</a>
+        <a href="#confirmacion" data-i18n="navRsvp">Confirmar</a>
+        <a href="#fotos" data-i18n="navPhotos">Fotos</a>
+      </nav>
+
+      <div class="header-tools">
+        <div class="lang-switch" role="group" data-i18n-aria="langAria" aria-label="Idioma">
+          <button type="button" class="lang-btn" data-lang="eu">EUS</button>
+          <button type="button" class="lang-btn" data-lang="ca">CA</button>
+          <button type="button" class="lang-btn" data-lang="es">ES</button>
+        </div>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav"
+          data-i18n-aria="menuOpen"
+          aria-label="Abrir menú"
+        >
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="hero" id="inicio">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="assets/images/hero.jpg?v=30"
+            alt=""
+            width="753"
+            height="577"
+            fetchpriority="high"
+          />
+          <div class="hero-shade"></div>
+        </div>
+        <div class="hero-content">
+          <p class="hero-eyebrow" data-i18n="heroEyebrow">¡Nos casamos!</p>
+          <h1>Irene &amp; Aritz</h1>
+          <p class="hero-meta">
+            <span data-i18n="heroDate">6 de marzo de 2027</span>
+            <span data-i18n="heroPlace">Zarautz</span>
+          </p>
+          <a class="scroll-hint" href="#lugares" data-i18n="scrollHint"
+            >Descubre más</a
+          >
+        </div>
+      </section>
+
+      <section class="section places" id="lugares">
+        <div class="section-inner places-grid">
+          <article class="place reveal">
+            <img
+              class="place-art"
+              src="assets/images/illustration-ceremony.png?v=34"
+              alt=""
+              width="1000"
+              height="1000"
+            />
+            <h3 data-i18n="ceremonyTitle">Ceremonia</h3>
+            <p data-i18n="ceremonyPlace">Ayuntamiento de Zarautz</p>
+            <a class="btn btn-ghost" data-link="ceremony" data-i18n="ceremonyCta"
+              >Ver en el mapa</a
+            >
+          </article>
+          <article class="place reveal">
+            <img
+              class="place-art"
+              src="assets/images/illustration-celebration.png?v=34"
+              alt=""
+              width="872"
+              height="884"
+            />
+            <h3 data-i18n="celebrationTitle">Celebración</h3>
+            <p data-i18n="celebrationPlace">Restaurante Otzarreta</p>
+            <a
+              class="btn btn-ghost"
+              data-link="celebration"
+              data-i18n="celebrationCta"
+              >Ver en el mapa</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-historia" id="historia">
+        <header class="story-divider reveal">
+          <div class="story-divider-photos" aria-hidden="true">
+            <img
+              class="story-kid-girl"
+              src="assets/images/story-kid-1.jpg?v=3"
+              alt=""
+              width="549"
+              height="408"
+              loading="lazy"
+            />
+            <img
+              class="story-kid-boy"
+              src="assets/images/story-kid-2.jpg?v=3"
+              alt=""
+              width="562"
+              height="403"
+              loading="lazy"
+            />
+          </div>
+          <h2 data-i18n="storyTitle">Nuestra historia</h2>
+        </header>
+        <div class="section-inner">
+          <div class="story-layout">
+            <div class="story-copy reveal">
+              <p data-i18n="storyP1"></p>
+              <p data-i18n="storyP2"></p>
+              <p data-i18n="storyP3"></p>
+              <p data-i18n="storyP4"></p>
+              <p data-i18n="storyP5"></p>
+              <p data-i18n="storyP6"></p>
+              <p data-i18n="storyP7"></p>
+            </div>
+            <div
+              class="story-viewer reveal"
+              data-story-viewer
+              aria-roledescription="carousel"
+            >
+              <div class="story-viewer-frame">
+                <img
+                  class="is-active"
+                  src="assets/images/gallery-coast.jpg?v=31"
+                  alt="Irene y Aritz"
+                  width="1600"
+                  height="1200"
+                />
+                <img
+                  src="assets/images/gallery-13.jpg?v=31"
+                  alt=""
+                  width="537"
+                  height="717"
+                  loading="lazy"
+                />
+                <img
+                  src="assets/images/story-granada.jpg?v=31"
+                  alt=""
+                  width="1200"
+                  height="1600"
+                  loading="lazy"
+                />
+                <img
+                  src="assets/images/gallery-kiss-view.jpg?v=31"
+                  alt=""
+                  width="622"
+                  height="830"
+                  loading="lazy"
+                />
+                <img
+                  src="assets/images/story-ronda.jpg?v=31"
+                  alt=""
+                  width="449"
+                  height="1000"
+                  loading="lazy"
+                />
+                <img
+                  src="assets/images/story-forest.jpg?v=31"
+                  alt=""
+                  width="1600"
+                  height="1600"
+                  loading="lazy"
+                />
+                <img
+                  src="assets/images/story-beach.jpg?v=31"
+                  alt=""
+                  width="1600"
+                  height="900"
+                  loading="lazy"
+                />
+                <img
+                  src="assets/images/story-hike.jpg?v=31"
+                  alt=""
+                  width="1600"
+                  height="1200"
+                  loading="lazy"
+                />
+              </div>
+              <div class="story-viewer-dots" data-story-dots aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section schedule" id="itinerario">
+        <div class="section-inner">
+          <h2 class="reveal" data-i18n="scheduleTitle">Itinerario</h2>
+          <p class="lead reveal" data-i18n="scheduleIntro">
+            Así se desarrolla el día.
+          </p>
+          <ol class="timeline">
+            <li class="reveal">
+              <span class="time">11:30</span>
+              <span class="event" data-i18n="t1130"></span>
+            </li>
+            <li class="reveal">
+              <span class="time">12:00</span>
+              <span class="event" data-i18n="t1200"></span>
+            </li>
+            <li class="reveal">
+              <span class="time">13:30</span>
+              <span class="event" data-i18n="t1330"></span>
+            </li>
+            <li class="reveal">
+              <span class="time">15:00</span>
+              <span class="event" data-i18n="t1500"></span>
+            </li>
+            <li class="reveal">
+              <span class="time">17:30–18:00</span>
+              <span class="event" data-i18n="t1730"></span>
+            </li>
+            <li class="reveal">
+              <span class="time">22:00</span>
+              <span class="event" data-i18n="t2200"></span>
+            </li>
+            <li class="reveal">
+              <span class="time">23:45</span>
+              <span class="event" data-i18n="t2345"></span>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section" id="alojamiento">
+        <div class="section-inner">
+          <h2 class="reveal" data-i18n="stayTitle">Alojamiento y aeropuertos</h2>
+          <p class="lead reveal" data-i18n="stayIntro"></p>
+
+          <div class="stay-block reveal">
+            <h3 data-i18n="stayBilbaoTitle"></h3>
+            <ul>
+              <li>
+                <a data-link="bilbao" data-i18n="stayBilbaoLink"></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="stay-block reveal">
+            <h3 data-i18n="staySsTitle"></h3>
+            <ul>
+              <li>
+                <a data-link="ss" data-i18n="staySsLink"></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="stay-block reveal">
+            <h3 data-i18n="stayHotelsTitle"></h3>
+            <div class="hotels">
+              <article class="hotel reveal">
+                <a class="hotel-photo" data-link="alameda" tabindex="-1" aria-hidden="true">
+                  <img
+                    src="assets/images/hotels/alameda.jpg"
+                    alt=""
+                    width="1200"
+                    height="801"
+                    loading="lazy"
+                  />
+                </a>
+                <div class="hotel-meta">
+                  <strong><a data-link="alameda">Hotel Alameda</a></strong>
+                  <p>
+                    <span data-i18n="stayPhone">Telf.</span>
+                    <a data-tel="alameda">+34 943 13 27 37</a>
+                  </p>
+                </div>
+              </article>
+              <article class="hotel reveal">
+                <a class="hotel-photo" data-link="txiki" tabindex="-1" aria-hidden="true">
+                  <img
+                    src="assets/images/hotels/txiki-polit.jpg"
+                    alt=""
+                    width="1199"
+                    height="918"
+                    loading="lazy"
+                  />
+                </a>
+                <div class="hotel-meta">
+                  <strong><a data-link="txiki">Hostal Txiki Polit</a></strong>
+                  <p>
+                    <span data-i18n="stayPhone">Telf.</span>
+                    <a data-tel="txiki">+34 943 83 53 57</a>
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <p class="note reveal" data-i18n="stayNote"></p>
+        </div>
+      </section>
+
+      <section class="section" id="confirmacion">
+        <div class="section-inner panel reveal">
+          <h2 data-i18n="rsvpTitle">Confirmación de asistencia</h2>
+          <p data-i18n="rsvpText"></p>
+          <a class="btn" data-link="rsvp" data-i18n="rsvpCta" hidden
+            >Confirmar asistencia</a
+          >
+          <p class="pending" data-rsvp-pending data-i18n="rsvpPending"></p>
+        </div>
+      </section>
+
+      <section class="section photos-section" id="fotos">
+        <div class="section-inner panel reveal">
+          <h2 data-i18n="photosTitle">¡Comparte tus fotos!</h2>
+          <p data-i18n="photosText"></p>
+
+          <div data-photos-ready class="photos-ready" hidden>
+            <a class="btn" data-link="photos" data-i18n="photosCta">Abrir álbum</a>
+          </div>
+
+          <p class="pending" data-photos-pending data-i18n="photosPending"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p data-i18n="footerThanks">Irene &amp; Aritz · 6.03.2027 · Zarautz</p>
+    </footer>
+
+    <script src="js/config.js?v=34"></script>
+    <script src="js/i18n.js?v=32"></script>
+    <script src="js/main.js?v=34"></script>
+  </body>
+</html>
