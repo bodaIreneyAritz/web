@@ -113,7 +113,7 @@ window.I18N = {
       t1330: "Còctel de benvinguda",
       t1500: "Banquet",
       t1730: "Festa i happy hour",
-      t2200: "Recena",
+      t2200: "Resopar",
       t2345: "Retirada a temps = victòria",
       stayTitle: "Allotjament i aeroports",
       stayIntro:
