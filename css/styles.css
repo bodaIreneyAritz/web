@@ -560,6 +560,15 @@ button {
   opacity: 0.82;
 }
 
+.schedule-note {
+  margin: 1.75rem 0 0;
+  max-width: 40rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  opacity: 0.78;
+  font-style: italic;
+}
+
 .timeline {
   --time-col: 6.1rem;
   --rail-gap: 1.15rem;
